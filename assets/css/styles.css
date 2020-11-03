@@ -236,7 +236,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.5rem;
+  padding: 0.8rem;
+  color: var(--first-color-lighten);
   background-color: rgba(123, 111, 113, 0.7);
   border-radius: 0.5rem;
   z-index: var(--z-tooltip);
@@ -244,7 +245,7 @@ img {
   visibility: hidden;
 }
 
-.scrolltop::hover {
+.scrolltop:hover {
   background-color: var(--first-color);
 }
 
@@ -344,6 +345,27 @@ img {
 }
 
 /*===== ABOUT =====*/
+.about__data {
+  text-align: center;
+}
+
+.about__description span {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--first-color);
+}
+
+.about__number {
+  font-size: var(--h1-font-size);
+  color: var(--first-color);
+  display: block;
+}
+
+.about__img {
+  justify-self: center;
+  width: 220px;
+  border-radius: 0.5rem;
+}
 
 /*===== QUALIFICATION =====*/
 

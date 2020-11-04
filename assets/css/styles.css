@@ -798,6 +798,10 @@ img {
   .project_title {
     font-size: 2.5rem;
   }
+
+  .about_description {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -808,5 +812,9 @@ img {
 
   .qualification_container {
     column-gap: 6rem;
+  }
+
+  .about_description {
+    text-align: center;
   }
 }

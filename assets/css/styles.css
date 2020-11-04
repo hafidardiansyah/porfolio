@@ -143,7 +143,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #000;
+  background-color: #101010;
 }
 
 /*===== NAV =====*/
@@ -162,7 +162,7 @@ img {
     width: 100%;
     padding-top: 1.5rem;
     text-align: center;
-    background-color: #000;
+    background-color: #101010;
     transition: 0.4s;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 0 0 1rem 1rem;
@@ -262,7 +262,7 @@ img {
 
 /*===== HOME =====*/
 .home {
-  background-color: #000;
+  background-color: #101010;
   overflow: hidden;
 }
 
@@ -279,10 +279,6 @@ img {
   color: var(--first-color-lighten);
   padding-left: 1.5rem;
   z-index: var(--z-tooltip);
-}
-
-.home__name {
-  font-size: var(--biggest-font-size);
 }
 
 .home__greeting,
@@ -342,6 +338,17 @@ img {
 
 .button-light {
   background-color: var(--first-color-light);
+}
+
+.button-transparent {
+  background-color: transparent;
+  border: 1px solid var(--first-color-lighten);
+}
+
+.button-transparent:hover {
+  background-color: transparent;
+  color: var(--first-color-light);
+  border: 1px solid var(--first-color-light);
 }
 
 /*===== ABOUT =====*/
@@ -408,6 +415,37 @@ img {
 }
 
 /*===== SERVICES =====*/
+.services__data {
+  padding: 3rem 1rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  text-align: center;
+  transition: 0.4s;
+  box-shadow: 0 0px 6px rgba(174, 190, 205, 0.3);
+}
+
+.services__icon,
+.services__title {
+  margin-bottom: var(--mb-2);
+  color: var(--first-color);
+}
+
+.services__icon {
+  font-size: 3rem;
+}
+
+.services__title {
+  font-size: var(--h3-font-size);
+}
+
+.services__description {
+  margin-bottom: var(--mb-4);
+}
+
+.services__data:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 6px 8px rgba(174, 190, 205, 0.4);
+}
 
 /*===== PROJECT IN MIND =====*/
 

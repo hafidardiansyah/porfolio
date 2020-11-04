@@ -13,7 +13,7 @@ const showMenu = (toggleId, navId) => {
 showMenu('nav-toggle', 'nav-menu')
 
 /*===== REMOVE MENU MOBILE =====*/
-const navLink = document.querySelectorAll('.nav__link');
+const navLink = document.querySelectorAll('.nav_link');
 
 function linkAction(){
     const navMenu = document.getElementById('nav-menu');
@@ -33,9 +33,9 @@ function scrollActive(){
         sectionId = current.getAttribute('id');
 
         if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link');
+            document.querySelector('.nav_menu a[href*=' + sectionId + ']').classList.add('active-link');
         }else{
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active-link');
+            document.querySelector('.nav_menu a[href*=' + sectionId + ']').classList.remove('active-link');
         }
     })
 }
@@ -56,9 +56,9 @@ function scrollTop(){
 window.addEventListener('scroll', scrollTop);
 
 /*===== MIXITUP FILTER PORTFOLIO =====*/ 
-let mixer = mixitup('.portfolio__container', {
+let mixer = mixitup('.portfolio_container', {
     selectors: {
-        target: '.portfolio__content'
+        target: '.portfolio_content'
     },
     animation: {
         duration: 400
@@ -66,7 +66,7 @@ let mixer = mixitup('.portfolio__container', {
 })
 
 /* Link active portfolio */ 
-const linkPortfolio = document.querySelectorAll('.portfolio__item');
+const linkPortfolio = document.querySelectorAll('.portfolio_item');
 
 function activePortfolio(){
     if(linkPortfolio){
@@ -78,7 +78,7 @@ linkPortfolio.forEach(l => l.addEventListener('click', activePortfolio))
 
 
 /*===== SWIPER CAROUSEL =====*/ 
-let mySwiper = new Swiper('.testimonial__container', {
+let mySwiper = new Swiper('.testimonial_container', {
     spaceBetween: 16,
     loop: true,
     grabCursor: true,

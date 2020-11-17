@@ -661,6 +661,7 @@ img {
   background-color: var(--color-dark);
   color: var(--color-lighten);
   text-align: center;
+  margin-top: 130px;
 }
 
 .footer_container {

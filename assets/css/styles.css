@@ -159,7 +159,6 @@ img {
     position: fixed;
     top: -100%;
     left: 0;
-    /* bottom: 0; */
     width: 100%;
     padding-top: 1.5rem;
     text-align: center;
@@ -222,7 +221,7 @@ img {
 .scroll-header .nav_logo,
 .scroll-header .nav_toggle,
 .scroll-header .nav_link {
-  color: var(--color-dark);
+  color: var(--color);
 }
 
 .scroll-header .nav_menu {
@@ -285,6 +284,8 @@ img {
 .home_greeting,
 .home_profession {
   display: block;
+  color: var(--color-dark);
+
   font-weight: var(--font-bold);
 }
 

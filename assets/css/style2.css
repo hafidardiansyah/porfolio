@@ -1,4 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/font/Poppins-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 
 * {
   margin: 0;
@@ -18,18 +23,12 @@ body {
 a {
   text-decoration: none;
 }
-
-main {
-  padding: 0px 6%;
-}
-
 /* * NAVBAR * */
-
 .nav {
   width: 100%;
   display: flex;
   position: fixed;
-  padding: 20px 6%;
+  padding: 20px 10%;
   align-items: center;
   background-color: #191a35;
   box-shadow: 0px 0px 30px #121327;
@@ -61,87 +60,93 @@ main {
 
 /* * HOME * */
 
-.main {
-  padding-top: 150px;
-}
-
 .home {
-  width: 100%;
-  height: 100px;
+  /* background-color: red; */
   clear: both;
-}
-
-.home-picture img {
-  width: 70%;
+  overflow: auto;
+  padding: 150px 10% 0px 10%;
 }
 
 .home-picture {
-  width: 40%;
+  width: 50%;
   float: right;
+  display: inline;
   text-align: center;
+  /* background-color: white; */
+}
+
+.home-picture img {
+  width: 100%;
 }
 
 .home-about {
-  width: 60%;
-  padding-right: 10px;
-  padding-top: 60px;
-  margin-bottom: 30px;
+  width: 50%;
+  margin-bottom: 40px;
+  /* background-color: blue; */
 }
 
 .home-name {
-  color: #fbf9f9;
   font-size: 32px;
-  color: #ffa51d;
-  font-weight: bold;
+  color: #fbf9f9;
+  font-weight: 800;
 }
 
 .home-job {
-  color: #fbf9f9;
-  font-size: 38px;
-  font-weight: bold;
+  font-size: 48px;
+  color: #ffa51d;
+  font-weight: 800;
   margin-bottom: 20px;
 }
 
 .home-description {
+  font-size: 18px;
   color: #f2f2f2;
   margin-bottom: 40px;
-}
-
-.home-button-cv {
-  width: 100px;
-  height: 50px;
-  padding: 10px 20px;
-  border-radius: 5px;
-  margin-left: 10px;
-  border: 1px solid #fbf9f9;
-  color: #fbf9f9;
+  padding-right: 4px;
 }
 
 .home-button-email {
   width: 100px;
   height: 50px;
-  padding: 10px 20px;
-  border-radius: 5px;
-  background-color: #ffa51d;
   color: #191919;
   font-weight: bold;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #ffa51d;
+}
+
+.home-button-email:hover {
+  color: #121327;
+  background-color: #eb971a;
+}
+
+.home-button-cv {
+  width: 100px;
+  height: 50px;
+  color: #fbf9f9;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: 1px solid #fbf9f9;
+}
+
+.home-button-cv:hover {
+  color: #fbf9f9;
+  background-color: #2e31be;
+  border: 1px solid #2e31be;
 }
 
 .home-icon i {
-  color: #fbf9f9;
   font-size: 32px;
+  color: #fbf9f9;
   margin: 10px 5px;
 }
 
-/* * PROJECT * */
-.project-subtitle {
+.home-icon i:hover {
+  color: #ffa51d;
 }
 
 @media only screen and (max-width: 576px) {
-  main {
-    padding: 4%;
-  }
-
   /* * NAVBAR * */
   .nav .nav-desktop-list,
   .nav-logo {
@@ -167,34 +172,32 @@ main {
   }
 
   /* * HOME * */
-  .home-name {
-    font-size: 24px;
-  }
-  .home-job {
-    font-size: 32px;
+  .home {
+    clear: none;
   }
 
   .home-picture {
-    display: block;
-    width: 100%;
     float: none;
-  }
-
-  .home-picture img {
-    height: 30%;
+    width: 100%;
+    display: inline-block;
   }
 
   .home-about {
-    display: block;
+    float: none;
     width: 100%;
+    display: inline-block;
+  }
+
+  .home-name {
+    margin-top: 20px;
+  }
+
+  .home-job {
+    font-size: 12px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  main {
-    padding: 4%;
-  }
-
   /* * NAVBAR * */
   .nav .nav-desktop-list,
   .nav-logo {
@@ -212,7 +215,7 @@ main {
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 10px;
+    padding: 20px 10px;
     align-items: center;
     z-index: 100;
     background-color: #121327;
@@ -220,23 +223,26 @@ main {
   }
 
   /* * HOME * */
+  .home {
+    padding: 50px 30px 0px;
+  }
+
   .home-name {
     font-size: 24px;
   }
 
   .home-job {
-    font-size: 32px;
-  }
-
-  .main {
-    padding-top: 40px;
+    font-size: 30px;
   }
 
   .home-picture img {
     width: 100%;
   }
 
-  .home-about {
-    padding-top: 0px;
+  .home-description {
+    font-size: 16px;
   }
+}
+
+@media only screen and (max-width: 1024px) {
 }

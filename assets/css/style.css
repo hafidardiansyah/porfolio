@@ -110,6 +110,7 @@ a {
 }
 
 .home-description {
+  line-height: 30px;
   font-size: 18px;
   color: #f2f2f2;
   margin-bottom: 40px;
@@ -345,6 +346,7 @@ a {
 
 .footer-description {
   margin-bottom: 20px;
+  line-height: 30px;
 }
 
 .footer-link {
@@ -528,8 +530,9 @@ a {
     font-size: 28px;
   }
 
-  .home-description {
-    font-size: 14px;
+  .home-description,
+  .footer-description {
+    font-size: 16px;
   }
 
   .home-button-email i {
@@ -593,9 +596,5 @@ a {
   /* * FOOTER * */
   .footer {
     padding-bottom: 40px;
-  }
-
-  .footer-description {
-    font-size: 14px;
   }
 }

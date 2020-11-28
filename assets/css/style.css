@@ -426,10 +426,6 @@ a {
     font-size: 42px;
   }
 
-  .home-description {
-    font-size-adjust: 14px;
-  }
-
   .home-picture img {
     width: 100%;
   }
@@ -439,11 +435,11 @@ a {
     padding: 100px 5%;
   }
   .project-container {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .me-container {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .project-data {
@@ -451,15 +447,6 @@ a {
     display: block;
     align-items: center;
     justify-content: space-evenly;
-  }
-
-  .project-data-subtitle {
-    display: block;
-    font-size: 12px;
-  }
-
-  .project-data-title {
-    font-size: 16px;
   }
 
   .project-button-link {
@@ -477,7 +464,9 @@ a {
     padding: 0px 5%;
   }
 
-  .project-title {
+  .project-title,
+  .skill-title,
+  .footer-title {
     font-size: 28px;
   }
 
@@ -489,5 +478,128 @@ a {
   /* * FOOTER * */
   .footer {
     padding-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 572px) {
+  /* * NAVBAR * */
+  .nav .nav-desktop-list,
+  .nav-logo {
+    display: none;
+  }
+
+  .nav {
+    padding: 0px;
+  }
+
+  .nav-mobile-list {
+    display: block;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    align-items: center;
+    z-index: 1000;
+    background-color: #121327;
+    justify-content: space-around;
+  }
+
+  /* * HOME * */
+  .home {
+    padding: 50px 5% 0px;
+  }
+
+  .home-picture {
+    float: none;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .home-about {
+    float: none;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .home-name {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .home-job {
+    font-size: 28px;
+  }
+
+  .home-description {
+    font-size: 14px;
+  }
+
+  .home-button-email i {
+    display: none;
+  }
+
+  .home-button-cv i {
+    display: none;
+  }
+
+  /* * PROJECT * */
+  .project {
+    padding: 100px 5%;
+  }
+  .project-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .me-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .project-item {
+    display: inline;
+    margin: 0 6px;
+  }
+
+  .project-data {
+    display: flex;
+    display: block;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .project-button-link {
+    width: 40px;
+    height: 50px;
+    color: #eb971a;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #191a35;
+  }
+
+  /* * HIRE ME * */
+  .project-hire-me {
+    padding: 0px 5%;
+  }
+
+  .project-title,
+  .skill-title,
+  .footer-title {
+    font-size: 24px;
+  }
+
+  /* * SKILL * */
+  .skill {
+    padding: 5%;
+  }
+
+  /* * FOOTER * */
+  .footer {
+    padding-bottom: 40px;
+  }
+
+  .footer-description {
+    font-size: 14px;
   }
 }

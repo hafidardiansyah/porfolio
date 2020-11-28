@@ -31,6 +31,7 @@ a {
 
 /* * NAVBAR * */
 .nav {
+  z-index: 1000;
   width: 100%;
   display: flex;
   position: fixed;
@@ -71,6 +72,10 @@ a {
   overflow: auto;
   /* background-color: red; */
   padding: 150px 10% 0px 10%;
+}
+
+.home-main {
+  color: #eb971a;
 }
 
 .home-picture {
@@ -180,6 +185,10 @@ a {
   box-shadow: 0 6px 8px #121327;
 }
 
+.project-content:hover .project-img {
+  transform: scale(1.02);
+}
+
 .project-img {
   width: 100%;
   transition: 0.4s;
@@ -260,12 +269,6 @@ a {
   padding: 0px 5px;
 }
 
-.project-description {
-  color: #f2f2f2;
-  text-align: center;
-  margin: 10px 0px 30px;
-}
-
 /* *  SERVICES  * */
 .services {
   padding: 0px 10%;
@@ -300,23 +303,42 @@ a {
 }
 
 .services-data:hover {
-  /* transform: translateY(-0.5rem); */
+  transform: translateY(-0.5rem);
   box-shadow: 0 6px 8px #121327;
+}
+
+/* * SKILL  **/
+
+.skill {
+  color: #f2f2f2;
+  text-align: center;
+  margin-top: 100px;
+  padding: 0px 20px;
+  background-color: #181933;
+}
+
+.skill a {
+  margin: 5px;
+}
+
+.skill-social {
+  margin-top: 0px;
 }
 
 /* * FOOTER  **/
 .footer {
   color: #f2f2f2;
-  margin-top: 130px;
   text-align: center;
   background-color: #121327;
 }
 
-.footer-container {
+.footer-container,
+.skill {
   padding: 3rem 0;
 }
 
-.footer-title {
+.footer-title,
+.skill-title {
   font-size: 32px;
   margin-bottom: 10px;
   font-weight: 600;

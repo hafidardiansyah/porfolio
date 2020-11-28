@@ -263,6 +263,52 @@ a {
   text-align: center;
   margin: 10px 0px 30px;
 }
+
+/* * FOOTER  **/
+.footer {
+  color: #f2f2f2;
+  margin-top: 130px;
+  text-align: center;
+  background-color: #121327;
+}
+
+.footer-container {
+  padding: 3rem 0;
+}
+
+.footer-title {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.footer-description {
+  margin-bottom: 20px;
+}
+
+.footer-link {
+  margin: 0px 10px;
+}
+
+.footer-description a {
+  color: #ffa51d;
+}
+
+.footer-link {
+  font-size: 1.5rem;
+  color: #f2f2f2;
+  margin: 0px 10px;
+  transition: 0.3s;
+}
+
+.footer-link:hover {
+  color: #f2f2f2;
+}
+
+.footer-copy {
+  font-size: 16px;
+  color: #f9f9f9;
+}
 /* 
 @media only screen and (max-width: 576px) {
   .nav .nav-desktop-list,
@@ -414,5 +460,10 @@ a {
   /* * HIRE ME * */
   .project-hire-me {
     padding: 0px 5%;
+  }
+
+  /* * FOOTER * */
+  .footer {
+    padding-bottom: 40px;
   }
 }

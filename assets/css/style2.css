@@ -177,7 +177,7 @@ a {
 }
 
 .project-content:hover {
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 6px 8px #121327;
 }
 
 .project-img {
@@ -196,7 +196,7 @@ a {
 }
 
 .project-title {
-  font-size: 48px;
+  font-size: 32px;
   color: #eb971a;
   font-weight: bold;
   text-align: center;
@@ -232,7 +232,8 @@ a {
   background-color: #121327;
 }
 
-.project-container {
+.project-container,
+.services-container {
   padding: 1rem 0;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -246,6 +247,7 @@ a {
 /* * HIRE ME * */
 .project-hire-me {
   padding: 0px 10%;
+  margin-bottom: 100px;
 }
 .project-container-hire-me {
   padding: 25px 0px;
@@ -262,6 +264,44 @@ a {
   color: #f2f2f2;
   text-align: center;
   margin: 10px 0px 30px;
+}
+
+/* *  SERVICES  * */
+.services {
+  padding: 0px 10%;
+}
+
+.services-data {
+  padding: 3rem 1rem;
+  background: #fff;
+  transition: 0.4s;
+  text-align: center;
+  border-radius: 0.5rem;
+  box-shadow: 0 0px 6px rgba(0, 0, 0, 0.3);
+}
+
+.services-icon,
+.services-title {
+  margin-bottom: 10px;
+  color: #2e31be;
+}
+
+.services-icon {
+  font-size: 3rem;
+}
+
+.services-title {
+  font-size: 16px;
+}
+
+.services-description {
+  margin-bottom: 32;
+  background-color: #191919;
+}
+
+.services-data:hover {
+  /* transform: translateY(-0.5rem); */
+  box-shadow: 0 6px 8px #121327;
 }
 
 /* * FOOTER  **/
@@ -383,7 +423,7 @@ a {
     width: 100%;
     padding: 20px 10px;
     align-items: center;
-    z-index: 100;
+    z-index: 1000;
     background-color: #121327;
     justify-content: space-around;
   }
@@ -429,6 +469,10 @@ a {
   }
   .project-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .services-container {
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .project-data {

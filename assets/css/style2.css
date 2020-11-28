@@ -150,7 +150,7 @@ a {
 .home-icon i {
   font-size: 32px;
   color: #fbf9f9;
-  margin: 10px 5px;
+  margin: 10px 10px;
 }
 
 .home-icon i:hover {
@@ -242,7 +242,7 @@ a {
 }
 
 .project-container,
-.services-container {
+.me-container {
   padding: 1rem 0;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -269,12 +269,12 @@ a {
   padding: 0px 5px;
 }
 
-/* *  SERVICES  * */
-.services {
+/* *  ME  * */
+.me {
   padding: 0px 10%;
 }
 
-.services-data {
+.me-data {
   padding: 3rem 1rem;
   background: #fff;
   transition: 0.4s;
@@ -283,26 +283,25 @@ a {
   box-shadow: 0 0px 6px rgba(0, 0, 0, 0.3);
 }
 
-.services-icon,
-.services-title {
+.me-title {
   margin-bottom: 10px;
   color: #2e31be;
 }
 
-.services-icon {
-  font-size: 3rem;
+.me-icon {
+  font-size: 32px;
 }
 
-.services-title {
+.me-title {
   font-size: 16px;
 }
 
-.services-description {
+.me-description {
   margin-bottom: 32;
-  background-color: #191919;
+  color: #191919;
 }
 
-.services-data:hover {
+.me-data:hover {
   transform: translateY(-0.5rem);
   box-shadow: 0 6px 8px #121327;
 }
@@ -314,7 +313,7 @@ a {
   text-align: center;
   margin-top: 100px;
   padding: 0px 20px;
-  background-color: #181933;
+  background-color: rgb(20, 22, 44);
 }
 
 .skill a {
@@ -468,13 +467,12 @@ a {
   }
 
   .home-name {
-    font-size: 30px;
+    font-size: 28px;
     margin-top: 20px;
   }
 
-  .home-job,
-  .project-title {
-    font-size: 34px;
+  .home-job {
+    font-size: 42px;
   }
 
   .home-description {
@@ -493,7 +491,7 @@ a {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .services-container {
+  .me-container {
     grid-template-columns: repeat(1, 1fr);
   }
 
@@ -526,6 +524,15 @@ a {
   /* * HIRE ME * */
   .project-hire-me {
     padding: 0px 5%;
+  }
+
+  .project-title {
+    font-size: 28px;
+  }
+
+  /* * SKILL * */
+  .skill {
+    padding: 5%;
   }
 
   /* * FOOTER * */

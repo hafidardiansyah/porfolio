@@ -1,411 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- ===== SWIPER CSS ===== -->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        
-        <!-- ===== BOX ICONS ===== -->
-        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- * ICON *  -->
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
 
-        <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="assets/css/style.css">
+    <!-- * SWIPER * -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
-        <title>Portfolio Personal Complete</title>
-    </head>
-    <body>
-        <!--===== SCROLL TOP =====-->
-        <a href="#" class="scrolltop" id="scroll-top">
-            <i class='bx bx-chevron-up scroll__icon'></i>
-        </a>
-        
-        <!--===== HEADER =====-->
-        <header class="l-header" id="header">
-            <nav class="nav bd-container">
-                <a href="#" class="nav_logo">Hafid Ardiansyah</a>
+    <!-- * CSS * -->
+    <link rel="stylesheet" href="assets/css/style.css">
 
-                <div class="nav_menu" id="nav-menu">
-                    <ul class="nav_list">
-                        <li class="nav_item"><a href="#home" class="nav_link active-link">Home</a></li>
-                        <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
-                        <li class="nav_item"><a href="#services" class="nav_link">Services</a></li>
-                        <li class="nav_item"><a href="#portfolio" class="nav_link">Portfolio</a></li>
-                        <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
-                    </ul>
+    <title>Hafid Ardiansyah | Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <nav class="nav">
+            <a href="#home" class="nav-logo">Hafid Ardiansyah</a>
+
+            <ul class="nav-desktop-list">
+                <li><a href="#project" class="nav-link">Project</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <ul class="nav-mobile-list">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#project" class="nav-link">Project</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <section class="home" id="home">
+            <div class="home-picture">
+                <img src="./assets/img/me.png" alt="Image">
+            </div>
+
+            <div class="home-about">
+                <p class="home-name">Hi 👋, I'm Hafid Ardiansyah</p>
+                <p class="home-job">Full Stack Developer</p>
+                <p class="home-description">
+                    I'm from Indonesia, i am 18 years old. For now, I live in Malang.
+                     I am a vocational high school graduates in <span class="home-main">SMK Negeri 1 Kepanjen</span> with a major in software engineering. 
+                     I Love make something that useful for the others like make an application mobile and i am prefer in mobile development
+                     using Flutter, and until now, i am still learning, because everyday the technologies is continues to develop.
+                </p>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hafidardiansyahh@gmail.com&su=HIRE ME" class="home-button-email"><i class="bx bxs-envelope"></i> Email Me</a>
+                <a download="" href="" class="home-button-cv"><i class="bx bxs-download"></i> Download CV</a>
+            </div>
+
+            <div class="home-social">
+                <a href="https://github.com/hafidardiansyahh" class="home-icon" target="_blank"><i class="bx bxl-github" ></i></a>
+                <a href="https://dribbble.com/hafidardiansyahh" class="home-icon" target="_blank"><i class="bx bxl-dribbble" ></i></a>
+                <a href="https://www.linkedin.com/in/hafid-ardiansyah-a299981b3/" class="home-icon" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://www.instagram.com/hafidardiansyahh" class="home-icon" target="_blank"><i class="bx bxl-instagram"></i></a>
+            </div>
+        </section>
+
+        <section class="project" id="project">
+            <p class="project-subtitle">My Recent Works</p>
+            <p class="project-title">Project</p>
+
+            <div class="project-nav">
+                <span class="project-item active-project" data-filter="all">All</span>
+                <span class="project-item" data-filter=".website">Website</span>
+                <span class="project-item" data-filter=".uiux">UI & UX</span>
+                <span class="project-item" data-filter=".mobile">Mobile</span>
+            </div>
+
+            <div class="project-container bd-grid">
+                <div class="project-content mix mobile">
+                    <a href="#"><img src="assets/img/absensi-siswa.png" alt="Image" class="project-img"></a>
+                    <div class="project-data">
+                        <span class="project-data-subtitle">Mobile</span>
+                        <a href="https://github.com/hafidardiansyahh/Absensi-Sekolah" target="_blank"><h2 class="project-data-title">School Attendance</h2></a>
+                        <p class="project-data-description">Application to manage attendance using qr code</p>
+                        <br>
+                        <a href="https://github.com/hafidardiansyahh/Absensi-Sekolah" target="_blank" class="project-button-link">View</a>
+                    </div>
                 </div>
+<!-- 
+                <div class="project-content mix mobile">
+                    <a href="#"><img src="assets/img/chat.jpg" alt="Image" class="project-img"></a>
+                    <div class="project-data">
+                        <span class="project-data-subtitle">Mobile</span>
+                        <a href="https://github.com/hafidardiansyahh/Chat-App" target="_blank"><h2 class="project-data-title">Chat</h2></a>
+                        <a href="https://github.com/hafidardiansyahh/Chat-App" target="_blank" class="project-button-link">View</a>
+                    </div>
+                </div>
+
+                <div class="project-content mix mobile">
+                    <a href="#"><img src="assets/img/absensi-siswa.png" alt="Image" class="project-img"></a>
+                    <div class="project-data">
+                        <span class="project-data-subtitle">UI/UX</span>
+                        <a href="https://www.figma.com/file/KtwHqqK76r6l1enQnlpgWc/Absensi-Siswa?node-id=0%3A1" target="_blank"><h2 class="project-data-title">School Attendance</h2></a>
+                        <a href="https://www.figma.com/file/KtwHqqK76r6l1enQnlpgWc/Absensi-Siswa?node-id=0%3A1" target="_blank" class="project-button-link">View</a>
+                    </div>
+                </div> -->
+
                 
 
-                <div class="nav_toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home" id="home">
-                <div class="home_container bd-container bd-grid">
-                    <div class="home_data">
-                        <span class="home_greeting">Hello, My name is</span>
-                        <span class="home_name">Hafid Ardiansyah</span>
-                        <span class="home_profession">Fullstack Developer</span>
-                        <a href="#" class="button button_email"><i class='bx bxs-envelope'></i> Email Me</a>
-                        <a download="" href="assets/pdf/Clay-Doe-Cv.pdf" class="button button_cv"><i class='bx bxs-download'></i> Download CV</a>
-                    </div>
-
-                    <div class="home_social">
-                        <a href="#" class="home_social-icon"><i class='bx bxl-youtube' ></i></a>
-                        <a href="#" class="home_social-icon"><i class='bx bxl-instagram'></i></a>
-                        <a href="#" class="home_social-icon"><i class='bx bxl-whatsapp'></i></a>
-                    </div>
-
-                    <div class="home_img">
-                        <img src="assets/img/home.jpg" alt="Images">
-                    </div>
-                </div>
-            </section>
-            
-            <!--===== ABOUT =====-->
-            <section class="about section bd-container" id="about">
-                <span class="section-subtitle">My History</span>
-                <h2 class="section-title">About Me</h2>
-
-                <div class="about_container bd-grid">
-                    <div class="about_data bd-grid">
-                        <p class="about_description">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic itaque adipisci ducimus dolorum voluptatem veritatis quos rem suscipit. Quam similique omnis excepturi consequuntur eius corporis impedit tenetur pariatur officiis optio?</p>
-                        </p>
-
-                        <div>
-                            <span class="about_number">05</span>
-                            <span class="about_achievement">Years off Experience</span>
-                        </div>
-
-                        <div>
-                            <span class="about_number">29+</span>
-                            <span class="about_achievement">Projects completes</span>
-                        </div>
-
-                        <div>
-                            <span class="about_number">07</span>
-                            <span class="about_achievement">Best work awards</span>
-                        </div>
-                    </div>
-
-                    <img src="assets/img/about.jpg" alt="Image" class="about_img">
-                </div>
-            </section>
-
-            <!--===== QUALIFICATION =====-->
-            <section class="qualification section bd-container">
-                <span class="section-subtitle">Experience and Education</span>
-                <h2 class="section-title">Qualification</h2>
-
-                <div class="qualification_container bd-grid">
-                    <div class="qualification_content">
-                        <h2 class="qualification_title">
-                            <i class='bx bx-briefcase-alt qualification_title-icon '></i>
-                            Work Experience
-                        </h2>
-                    
-
-                        <div class="bd-grid">
-                            <div class="qualification_data">
-                                <h3 class="qualification_area">Senior Front End Developer</h3>
-
-                                <div class="qualification_box">
-                                    <span class="qualification_work">
-                                        <i class='bx bx-briefcase-alt qualification_icon '></i>
-                                        Adobe - New York
-                                    </span>
-                                    <span class="qualification_work">
-                                        <i class='bx bx-calendar-alt qualification_icon '></i>
-                                        Jan 2019 - Aug 2019
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div class="qualification_data">
-                                <h3 class="qualification_area">UI and UX Designer</h3>
-
-                                <div class="qualification_box">
-                                    <span class="qualification_work">
-                                        <i class='bx bx-briefcase-alt qualification_icon '></i>
-                                        Figma - Lima
-                                    </span>
-                                    <span class="qualification_work">
-                                        <i class='bx bx-calendar-alt qualification_icon '></i>
-                                        Oct 2019 - Dec 2019
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div class="qualification_data">
-                                <h3 class="qualification_area">Web Designer</h3>
-
-                                <div class="qualification_box">
-                                    <span class="qualification_work">
-                                        <i class='bx bx-briefcase-alt qualification_icon '></i>
-                                        Apple Inc - New York
-                                    </span>
-                                    <span class="qualification_work">
-                                        <i class='bx bx-calendar-alt qualification_icon '></i>
-                                        Jan 2020 - May 2019
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            </div>
+        </section>
 
 
-                    <div class="qualification_content">
-                        <h2 class="qualification_title">
-                            <i class='bx bx-book-alt qualification_title-icon '></i>
-                            Education
-                        </h2>
-                    
+        <!-- * HIRE ME * -->
+        <section class="project-hire-me">
+            <div class="project-container-hire-me bd-grid">
+                <div class="project-data">
 
-                        <div class="bd-grid">
-                            <div class="qualification_data">
-                                <h3 class="qualification_area">Computer Technician</h3>
-
-                                <div class="qualification_box">
-                                    <span class="qualification_work">
-                                        <i class='bx bx-briefcase-alt qualification_icon '></i>
-                                        Lima - Computer Institure
-                                    </span>
-                                    <span class="qualification_work">
-                                        <i class='bx bx-calendar-alt qualification_icon '></i>
-                                        Apr 2015 - Dec 2018
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div class="qualification_data">
-                                <h3 class="qualification_area">Master in Web Developer</h3>
-
-                                <div class="qualification_box">
-                                    <span class="qualification_work">
-                                        <i class='bx bx-briefcase-alt qualification_icon '></i>
-                                        Madrid - Design Institure
-                                    </span>
-                                    <span class="qualification_work">
-                                        <i class='bx bx-calendar-alt qualification_icon '></i>
-                                        Jan 2019 - Aug 2020
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div class="qualification_data">
-                                <h3 class="qualification_area">Web Designer</h3>
-
-                                <div class="qualification_box">
-                                    <span class="qualification_work">
-                                        <i class='bx bx-briefcase-alt qualification_icon '></i>
-                                        Apple Inc - New York
-                                    </span>
-                                    <span class="qualification_work">
-                                        <i class='bx bx-calendar-alt qualification_icon '></i>
-                                        Jan 2020 - May 2019
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== SERVICES =====-->
-            <section class="services section bd-container" id="services">
-                <span class="section-subtitle">What i offer</span>
-                <h2 class="section-title">Service</h2>
-
-                <div class="services_container bd-grid">
-                    <div class="services_data">
-                        <i class="bx bx-palette servies_icon"></i>
-                        <h3 class="services_title">Communicative</h3>
-                        <p class="services_description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem reprehenderit repellat consectetur aliquam.</p>
-                        <a href="#" class="button">Know More</a>
-                    </div>
-
-                    <div class="services_data">
-                        <i class="bx bx-laptop servies_icon"></i>
-                        <h3 class="services_title">Collaborative</h3>
-                        <p class="services_description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem reprehenderit repellat consectetur aliquam.</p>
-                        <a href="#" class="button">Know More</a>
-                    </div>
-
-                    <div class="services_data">
-                        <i class="bx bx-pen servies_icon"></i>
-                        <h3 class="services_title">productivity</h3>
-                        <p class="services_description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem reprehenderit repellat consectetur aliquam.</p>
-                        <a href="#" class="button">Know More</a>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== PORTFOLIO =====-->
-            <section class="portfolio section bd-container" id="portfolio">
-                <span class="section-subtitle">My Recent Works</span>
-                <h2 class="section-title">Portfolio</h2>
-
-                <div class="portfolio_nav">
-                    <span class="portfolio_item active-portfolio" data-filter="all">All</span>
-                    <span class="portfolio_item" data-filter=".web">Website</span>
-                    <span class="portfolio_item" data-filter=".uiux">UI & UX</span>
-                    <span class="portfolio_item" data-filter=".mob">Mobile</span>
-                </div>
-
-                <div class="portfolio_container bd-grid">
-                    <div class="portfolio_content mix web">
-                        <a href="#"><img src="assets/img/work1.jpg" alt="Image" class="portfolio_img"></a>
-                        <div class="portfolio_data">
-                            <span class="portfolio_subtitle">Web Development</span>
-                            <a href="#"><h2 class="portfolio_title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore ex.</h2></a>
-                            <a href="#" class="button button_link">View Detail</a>
-                        </div>
-                    </div>
-
-                    <div class="portfolio_content mix uiux">
-                        <a href="#"><img src="assets/img/work2.jpg" alt="Image" class="portfolio_img"></a>
-                        <div class="portfolio_data">
-                            <span class="portfolio_subtitle">UI Design</span>
-                            <a href="#"><h2 class="portfolio_title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore ex.</h2></a>
-                            <a href="#" class="button button_link">View Detail</a>
-                        </div>
-                    </div>
-                    
-                    <div class="portfolio_content mix uiux">
-                        <a href="#"><img src="assets/img/work3.jpg" alt="Image" class="portfolio_img"></a>
-                        <div class="portfolio_data">
-                            <span class="portfolio_subtitle">UX Design</span>
-                            <a href="#"><h2 class="portfolio_title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore ex.</h2></a>
-                            <a href="#" class="button button_link">View Detail</a>
-                        </div>
-                    </div>
-                    
-                    <div class="portfolio_content mix mob">
-                        <a href="#"><img src="assets/img/work4.jpg" alt="Image" class="portfolio_img"></a>
-                        <div class="portfolio_data">
-                            <span class="portfolio_subtitle">Mobile Development</span>
-                            <a href="#"><h2 class="portfolio_title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore ex.</h2></a>
-                            <a href="#" class="button button_link">View Detail</a>
-                        </div>
-                    </div>
-                    
-                </div>
-            </section>
-        
-            
-            <!--===== PROJECT IN MIND =====-->
-            <section class="project section bd-container">
-                <div class="project_container bd-grid">
-                    <div class="project_data">
-                        <i class='bx bx-chat project_icon' ></i>
-
-                        <div>
-                            <h2 class="project_title">Project in mind</h2>
-                            <p class="project_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nisi</p>
-                        </div>
-
-                        <div>
-                            <a href="#" class="button button_white">Hire me</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== TESTIMONIAL =====-->
-            <section class="testimonial section bd-container">
-                <span class="section-subtitle">My Client Saying</span>
-                <h2 class="section-title">Testimonial</h2>
-
-                <div class="testimonial_container swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="testimonial_content swiper-slide">
-                            <img src="assets/img/testimonial1.jpg" alt="Images" class="testimonial_img">
-                            <h3 class="testimonial_title">Nik Holly</h3>
-                            <span class="testimonial_client">Client</span>
-                            <p class="testimonial_desription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero debitis, dolorem delectus molestiae accusamus similique?</p>
-                        </div>
-
-                        <div class="testimonial_content swiper-slide">
-                            <img src="assets/img/testimonial2.jpg" alt="Images" class="testimonial_img">
-                            <h3 class="testimonial_title">Nik Holly</h3>
-                            <span class="testimonial_client">Client</span>
-                            <p class="testimonial_desription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero debitis, dolorem delectus molestiae accusamus similique?</p>
-                        </div>
-
-                        <div class="testimonial_content swiper-slide">
-                            <img src="assets/img/testimonial3.jpg" alt="Images" class="testimonial_img">
-                            <h3 class="testimonial_title">Nik Holly</h3>
-                            <span class="testimonial_client">Client</span>
-                            <p class="testimonial_desription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero debitis, dolorem delectus molestiae accusamus similique?</p>
-                        </div>
+                    <div>
+                        <h2 class="project-title hire-me">Interested working with me?</h2>
                     </div>
                     <br>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </section>
-
-
-            <!--===== CONTACTME =====-->
-            <section class="contact section bd-container" id="contact">
-                <span class="section-subtitle">For Projects</span>
-                <h2 class="section-title">Contact Me</h2>
-
-                <div class="contact_container bd-grid">
-                    <div class="contact_content bd-grid">                        
-                        
-                        <div class="contact_box">
-                            <i class="bx bx-envelope contact_icon"></i>
-                            <h3 class="contact_title">Gmail</h3>
-                           <a href="#" class="contact_description">hafidardiansyahh@gmail.com</a>
-                        </div>
-
-                        <div class="contact_box">
-                            <i class="bx bx-chat contact_icon"></i>
-                            <h3 class="contact_title">Chat</h3>
-                            <div>
-                                <a href="#" class="contact_social"><i class='bx bxl-whatsapp' ></i></a>
-                                <a href="#" class="contact_social"><i class='bx bxl-instagram' ></i></a>
-                            </div>
-                        </div>
+                    <div>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hafidardiansyahh@gmail.com&su=HIRE ME" class="home-button-cv" target="_blank"><i class="bx bx-chat project-icon" ></i>Hire me</a>
                     </div>
-
                 </div>
-            </section>
-            
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <div class="footer_container bd-container">
-                <h1 class="footer_title">Get in touch</h1>
-                <p class="footer_description">For business inquiry please send email to <a href="#">hafidardiansyahh@gmail.com</a></p>
-
-                <div class="footer_social">
-                    <a href="#" class="footer_link"><i class='bx bxl-youtube' ></i></a>
-                    <a href="#" class="footer_link"><i class='bx bxl-instagram' ></i></a>
-                    <a href="#" class="footer_link"><i class='bx bxl-whatsapp'></i></a>
-                </div>
-
-                <p class="footer_copy">Copyright &#169; 2020 Hafid ardiansyah</p>
             </div>
-        </footer>
+        </section>
+
+         <!-- * WHY HIRE ME  *-->
+         <section class="me" >
+            <!-- <span class="section-subtitle">What i offer</span> -->
+            <h2 class="project-title">Why Hire Me?</h2>
+
+            <div class="me-container bd-grid">
+                <div class="me-data">
+                    <i class="bx bx-message me_icon"></i>
+                    <h3 class="me-title">Communicative</h3>
+                    <p class="me-description">I communicate what I struggle to make all crystal clear. I can communicate my ideas well.</p>
+                </div>
+
+                <div class="me-data">
+                    <i class="bx bx-user me_icon"></i>
+                    <h3 class="me-title">Collaborative</h3>
+                    <p class="me-description">I can work within a team, collaborate well with people, and I love feedbacks.</p>
+                </div>
+
+                <div class="me-data">
+                    <i class="bx bx-time me_icon"></i>
+                    <h3 class="me-title">Time management</h3>
+                    <p class="me-description">I manage the whole process from problems, UX / UI, to the application being used.</p>
+                </div>
+            </div>
+        </section>
+
+    <section class="skill">
+        <div class="skill-container bd-container">
+            <h1 class="skill-title">Languages and Tools</h1>
+
+            <div class="skill-social">
+                <p align="center"> 
+                    <a href="https://www.w3.org/html/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 
+                    <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
+                    <a href="https://getbootstrap.com" target="_blank"><img src="https://devicons.github.io/devicon/devicon.git/icons/bootstrap/bootstrap-plain.svg" alt="bootstrap" width="40" height="40"/> </a> 
+                    <a href="https://reactjs.org/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> 
+                    <a href="https://www.php.net" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> 
+                    <a href="https://www.mysql.com/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> 
+                    <a href="https://codeigniter.com" target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg" alt="codeigniter" width="40" height="40"/> </a> 
+                    <a href="https://laravel.com/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> </a> 
+                    <a href="https://nodejs.org" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> 
+                    <a href="https://expressjs.com" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> 
+                    <a href="https://www.nginx.com" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> 
+                    <a href="https://dart.dev" target="_blank"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> 
+                    <a href="https://flutter.dev" target="_blank"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> 
+                    <a href="https://www.sqlite.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> 
+                    <a href="https://firebase.google.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> 
+                    <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> 
+                    <a href="https://postman.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> 
+                    <a href="https://www.figma.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> 
+                    <a href="https://www.adobe.com/products/xd.html" target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/> </a> </p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="footer-container bd-container">
+            <h1 class="footer-title">Get in touch</h1>
+            <p class="footer-description">For business inquiry please send email to <a href="#">hafidardiansyahh@gmail.com</a></p>
+
+            <div class="footer-social">
+                <a href="https://github.com/hafidardiansyahh" class="footer-link" target="_blank"><i class="bx bxl-github" ></i></a>
+                <a href="https://dribbble.com/hafidardiansyahh" class="footer-link" target="_blank"><i class="bx bxl-dribbble" ></i></a>
+                <a href="https://www.linkedin.com/in/hafid-ardiansyah-a299981b3/" class="footer-link" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://www.instagram.com/hafidardiansyahh" class="footer-link" target="_blank"><i class="bx bxl-instagram"></i></a>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- * MIXITUP FILTER * -->
+    <script src="assets/js/mixitup.min.js"></script>
         
-        <!-- ===== MIXITUP FILTER ===== -->
-        <script src="assets/js/mixitup.min.js"></script>
-        
-        <!-- ===== SWIPER JS ===== -->
-        <script src="assets/js/swiper-bundle.min.js"></script>
-        
-        <!-- ===== GSAP ===== -->
-        <script src="assets/js/gsap.min.js"></script>
-        
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <!-- * SWIPER JS * -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- * GSAP * -->
+    <script src="assets/js/gsap.min.js"></script>
+
+    <!-- * MAIN JS * -->
+    <script src="assets/js/main.js"></script>
+</body>
 </html>

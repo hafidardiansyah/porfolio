@@ -311,16 +311,17 @@ a {
 .skill {
   text-align: center;
   margin-top: 50px;
-  background-color: #121224;
-}
-
-.skill a {
-  margin: 5px;
+  background-color: #15152b;
 }
 
 .skill-social {
+  width: 80%;
   display: inline-block;
   margin-top: 10px;
+}
+
+.skill-social a {
+  margin: 5px 10px;
 }
 
 /* * FOOTER  **/
@@ -588,8 +589,8 @@ a {
   }
 
   /* * SKILL * */
-  .skill {
-    padding: 5%;
+  .skill-social {
+    width: 90%;
   }
 
   /* * FOOTER * */

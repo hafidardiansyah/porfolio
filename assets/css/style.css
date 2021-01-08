@@ -536,11 +536,9 @@ a {
     font-size: 16px;
   }
 
-  .home-button-email i {
-    display: none;
-  }
-
-  .home-button-cv i {
+  .home-button-email i,
+  .home-button-cv i,
+  .project-button-link i {
     display: none;
   }
 

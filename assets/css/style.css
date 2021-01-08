@@ -145,6 +145,21 @@ a {
   border: 1px solid #2e31be;
 }
 
+.button-hire-me {
+  width: 100px;
+  height: 50px;
+  color: #fbf9f9;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: 1px solid #fbf9f9;
+}
+
+.button-hire-me:hover {
+  color: #fbf9f9;
+  background-color: #2e31be;
+  border: 1px solid #2e31be;
+}
+
 .home-social a i {
   font-size: 32px;
   color: #fbf9f9;

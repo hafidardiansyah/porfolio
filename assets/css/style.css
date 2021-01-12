@@ -94,13 +94,13 @@ a {
 }
 
 .home-name {
-  font-size: 32px;
+  font-size: 28px;
   color: #fbf9f9;
   font-weight: 800;
 }
 
 .home-job {
-  font-size: 38px;
+  font-size: 48px;
   color: #ffa51d;
   font-weight: 800;
   margin-bottom: 20px;
@@ -438,7 +438,8 @@ a {
   }
 
   .home-job {
-    font-size: 34px;
+    margin-bottom: 18px;
+    font-size: 48px;
   }
 
   .home-picture img {
@@ -540,12 +541,13 @@ a {
   }
 
   .home-name {
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 20px;
   }
 
   .home-job {
-    font-size: 24px;
+    font-size: 32px;
+    margin-bottom: 16px;
   }
 
     

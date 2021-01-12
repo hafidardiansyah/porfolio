@@ -208,7 +208,7 @@ a {
 }
 
 .project-data {
-  padding: 1.5rem 1rem;
+  padding: 1.6rem 1rem;
 }
 
 .project-subtitle {
@@ -237,8 +237,8 @@ a {
 .project-button-link {
   width: 100px;
   height: 50px;
+  font-size: 14px;
   color: #ffa51d;
-  font-weight: bold;
   border-radius: 5px;
   padding: 10px 20px;
   background-color: #191a35;
@@ -248,7 +248,6 @@ a {
   width: 100px;
   height: 50px;
   color: #eb971a;
-  font-weight: bold;
   border-radius: 5px;
   padding: 10px 20px;
   background-color: #121327;
@@ -466,15 +465,16 @@ a {
   }
 
   .project-button-link {
-    width: 40px;
-    height: 50px;
+    width: 50px;
+    height: 48px;
+    font-size: 14px;
     color: #eb971a;
-    font-weight: bold;
+    padding: 9px 18px;
     border-radius: 5px;
-    padding: 10px 20px;
     background-color: #191a35;
   }
 
+  
   /* * HIRE ME * */
   .project-hire-me {
     padding: 0px 5%;
@@ -548,6 +548,48 @@ a {
     font-size: 24px;
   }
 
+    
+  .home-button-email {
+    width: 80px;
+    height: 40px;
+    color: #191919;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 8px;
+    padding: 8px 16px;
+    background-color: #ffa51d;
+  }
+
+  .home-button-email:hover {
+    color: #121327;
+    background-color: #eb971a;
+  }
+  
+  .home-button-cv {
+    width: 80px;
+    height: 40px;
+    color: #fbf9f9;
+    border-radius: 5px;
+    padding: 8px 16px;
+    border: 1px solid #fbf9f9;
+  }
+
+  .home-button-cv:hover {
+    color: #fbf9f9;
+    background-color: #2e31be;
+    border: 1px solid #2e31be;
+  }
+    
+  .home-social a i {
+    font-size: 28px;
+    color: #fbf9f9;
+    margin: 8px 16px 0px 0px;
+  }
+
+  .home-social a i:hover {
+    color: #ffa51d;
+  }
+
   .home-description,
   .footer-description {
     font-size: 16px;
@@ -578,12 +620,10 @@ a {
   }
 
   .project-button-link {
-    width: 40px;
-    height: 50px;
+    font-size: 14px;
     color: #eb971a;
-    font-weight: bold;
+    padding: 8px 16px;
     border-radius: 5px;
-    padding: 10px 20px;
     background-color: #191a35;
   }
 
@@ -607,4 +647,5 @@ a {
   .footer {
     padding-bottom: 40px;
   }
+
 }

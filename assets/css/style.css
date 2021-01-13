@@ -470,7 +470,7 @@ a {
     height: 48px;
     font-size: 14px;
     color: #eb971a;
-    padding: 9px 18px;
+    padding: 10px 20px;
     border-radius: 5px;
     background-color: #191a35;
   }
@@ -549,7 +549,6 @@ a {
     font-size: 24px;
     margin-bottom: 16px;
   }
-
     
   .home-button-email {
     width: 80px;
@@ -558,7 +557,7 @@ a {
     font-weight: bold;
     border-radius: 5px;
     margin-right: 8px;
-    padding: 8px 16px;
+    padding: 10px 20px;
     background-color: #ffa51d;
   }
 
@@ -572,7 +571,7 @@ a {
     height: 40px;
     color: #fbf9f9;
     border-radius: 5px;
-    padding: 8px 16px;
+    padding: 10px 20px;
     border: 1px solid #fbf9f9;
   }
 
@@ -624,7 +623,7 @@ a {
   .project-button-link {
     font-size: 14px;
     color: #eb971a;
-    padding: 8px 16px;
+    padding: 10px 20px;
     border-radius: 5px;
     background-color: #191a35;
   }

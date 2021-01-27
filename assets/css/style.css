@@ -15,11 +15,6 @@ html {
   scroll-behavior: smooth;
 }
 
-#image,
-#home {
-  overflow: hidden;
-}
-
 body {
   background-color: #191a35;
   font-family: "Poppins", sans-serif;

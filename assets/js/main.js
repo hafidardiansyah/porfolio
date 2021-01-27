@@ -35,14 +35,3 @@ gsap.from(".home-social a", {
   ease: "expo.out",
   stagger: 0.2,
 });
-
-// * PARALLAX *
-document.addEventListener("mousemove", parallax);
-function parallax(e) {
-  this.querySelectorAll("#image").forEach((layer) => {
-    const x = (window.innerWidth - e.pageX * 2) / 100;
-    const y = (window.innerWidth - e.pageY * 2) / 100;
-
-    layer.style.transform = `translateX(${x}px) translateY(${y}px)`;
-  });
-}

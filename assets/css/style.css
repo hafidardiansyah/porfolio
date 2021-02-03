@@ -108,7 +108,7 @@ a {
 
 .home-description {
   line-height: 30px;
-  font-size: 18px;
+  font-size: 16px;
   color: #f2f2f2;
   margin-bottom: 40px;
   padding-right: 4px;
@@ -599,52 +599,17 @@ a {
   .project {
     padding: 100px 5%;
   }
-  .project-container {
+
+  .project .project-container {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .me-container {
+  .project .project-container .me-container {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .project-item {
+  .project .project-container .project-item {
     display: inline;
     margin: 0 6px;
-  }
-
-  .project-data {
-    display: flex;
-    display: block;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  .project-button-link {
-    font-size: 14px;
-    color: #eb971a;
-    padding: 10px 20px;
-    border-radius: 5px;
-    background-color: #191a35;
-  }
-
-  /* * HIRE ME * */
-  .project-hire-me {
-    padding: 0px 5%;
-  }
-
-  .project-title,
-  .skill-title,
-  .footer-title {
-    font-size: 24px;
-  }
-
-  /* * SKILL * */
-  .skill-social {
-    width: 95%;
-  }
-
-  /* * FOOTER * */
-  .footer {
-    padding-bottom: 40px;
   }
 }

@@ -327,7 +327,7 @@ a {
 }
 
 .skill-social {
-  width: 80%;
+  width: 90%;
   display: inline-block;
   margin-top: 10px;
 }
@@ -611,5 +611,9 @@ a {
   .project .project-container .project-item {
     display: inline;
     margin: 0 6px;
+  }
+
+  .me-container {
+    grid-template-columns: repeat(1, 1fr);
   }
 }

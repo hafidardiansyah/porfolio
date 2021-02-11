@@ -91,6 +91,7 @@ a {
 .home-about {
   width: 50%;
   margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .home-name {
@@ -536,6 +537,7 @@ a {
   .home-about {
     float: none;
     width: 100%;
+    margin-top: 20px;
     display: inline-block;
   }
 

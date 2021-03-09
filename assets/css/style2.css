@@ -1,0 +1,267 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/font/Poppins-Regular.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fbf9f9;
+  --yellow: #ffa51d;
+  --yellow-hover: #dd8e18;
+  --blue: #2e31be;
+  --black: #191919;
+  --dark: #121327;
+  --dark-shadow: #101124;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #191a35;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.title,
+.subtitle {
+  text-align: center;
+}
+
+.title {
+  font-size: 32px;
+  color: var(--yellow);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: var(--white);
+}
+
+.container {
+  padding: 1rem 0;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.button {
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 10px 20px;
+}
+
+.bold {
+  color: var(--yellow);
+}
+
+#about,
+#project,
+#info {
+  width: 100%;
+  padding: 100px;
+}
+
+/* NAVBAR */
+#nav {
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  padding: 24px 100px;
+  align-items: center;
+  background-color: var(--dark);
+  box-shadow: 0px 0px 30px var(--dark-shadow);
+}
+
+#nav #logo {
+  font-size: 24px;
+  color: var(--yellow);
+  font-weight: bold;
+}
+
+#nav #link {
+  flex: 1;
+  text-align: right;
+}
+
+#nav #link li {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+#nav #link a {
+  color: var(--white);
+}
+
+/* ABOUT */
+#about .picture {
+  width: 50%;
+  float: right;
+  margin-top: 25px;
+  display: inline;
+  text-align: center;
+}
+
+#about #data {
+  width: 50%;
+  margin: 45px 0px;
+}
+
+#about #name {
+  font-size: 30px;
+  color: var(--white);
+  font-weight: 800;
+}
+
+#about #job {
+  font-size: 38px;
+  color: var(--yellow);
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+#about #description {
+  line-height: 30px;
+  font-size: 16px;
+  color: #f2f2f2;
+  margin-bottom: 40px;
+  padding-right: 4px;
+}
+
+#about .button-email {
+  color: var(--dark);
+  background-color: var(--yellow);
+}
+
+#about .button-email:hover {
+  background-color: var(--yellow-hover);
+}
+
+#about .button-cv {
+  border: 1px solid var(--white);
+  color: var(--white);
+}
+
+#about .button-cv:hover {
+  border: 1px solid var(--blue);
+  color: var(--white);
+  background-color: var(--blue);
+}
+
+#about .link a i {
+  font-size: 32px;
+  color: var(--white);
+  margin: 10px 20px 0px 0px;
+}
+
+#about .link a i:hover {
+  color: var(--yellow);
+}
+
+/* PROJECT */
+#project .nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#project .item {
+  margin: 0px 10px;
+  color: var(--white);
+  cursor: pointer;
+}
+
+#project .active {
+  color: var(--yellow);
+  font-weight: bold;
+}
+
+#project .container .content {
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: var(--white);
+  box-shadow: 0 12px 18px var(--dark);
+}
+
+#project .container .content:hover {
+  box-shadow: 0 24px 32px var(--dark-shadow);
+}
+
+#project .container .content:hover .img {
+  transform: scale(1.02);
+}
+
+#project .container .img {
+  width: 100%;
+  transition: 0.4s;
+}
+
+#project .container .data {
+  padding: 25px 20px;
+}
+
+#project .container .subtitle {
+  font-size: 16px;
+  color: var(--white);
+}
+
+#project .container .subtitle {
+  color: grey;
+  text-align: left;
+}
+
+#project .container .title {
+  font-size: 24px;
+  text-align: left;
+  color: #2e31be;
+}
+
+#project .container .link {
+  color: #ffa51d;
+  background-color: #191a35;
+}
+
+#project .container .link:hover {
+  color: #eb971a;
+  background-color: #121327;
+}
+
+/* INFO */
+#info .container {
+  border-radius: 5px;
+  padding: 40px 0px;
+  text-align: center;
+  background-color: var(--dark);
+}
+
+#info .icon {
+  padding: 0px 5px;
+}
+
+#info .button-link {
+  border: 1px solid var(--white);
+  color: var(--white);
+}
+
+#info .button-link:hover {
+  border: 1px solid var(--blue);
+  color: var(--white);
+  background-color: var(--blue);
+}

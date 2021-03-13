@@ -1,2 +1,37 @@
-# hafidardiansyahh.github.io
-My Portoflio
+<h1 align="center">Selamat datang di portfolio! 👋</h1>
+
+![portfolio - Screenshot](/assets/images/home.png)
+
+<p align ="Center">
+
+<img src="https://img.shields.io/github/issues/hafidardiansyah/portfolio?style=flat-square">
+<img src="https://img.shields.io/github/stars/hafidardiansyah/portfolio?style=flat-square">
+<img src="https://img.shields.io/github/forks/hafidardiansyah/portfolio?style=flat-square">
+
+</p>
+
+### 🤔 Apa itu portfolio?
+
+portfolio adalah website personal saya. Menggunakan teknologi HTML, CSS dan JavaScript.
+
+### 🎉 Kenapa membuat portfolio?
+
+Karena supaya orang-orang dapat mengenal saya.
+
+### ✨ Demo
+
+Demo dapat kalian kunjungi di https://hafidardiansyah.github.io/portfolio
+
+### :link: Social Media
+
+- Instagram : <a href="http://instagram.com/dev.hafid"> @dev.hafid</a>
+- Dribbble : <a href="https://dribbble.com/hafidardiansyah"> hafidardiansyah</a>
+
+### 📝 Lisensi
+
+- Copyright © 2020 Hafid Ardiansyah.
+- **portfolio CC0-1.0 License.**
+
+---
+
+- **Made with ❤️ by Hafid Ardiansyah**

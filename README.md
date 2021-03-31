@@ -24,7 +24,7 @@ Demo dapat kalian kunjungi di https://hafidardiansyah.github.io/portfolio
 
 ### 📝 Lisensi
 
-- Copyright © 2020 Hafid Ardiansyah.
+- Copyright © 2021 Hafid Ardiansyah.
 - **portfolio CC0-1.0 License.**
 
 ---

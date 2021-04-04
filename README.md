@@ -22,14 +22,9 @@ Karena supaya orang-orang dapat mengenal saya.
 
 Demo dapat kalian kunjungi di https://hafidardiansyah.github.io/portfolio
 
-### :link: Social Media
-
-- Instagram : <a href="http://instagram.com/dev.hafid"> @dev.hafid</a>
-- Dribbble : <a href="https://dribbble.com/hafidardiansyah"> hafidardiansyah</a>
-
 ### 📝 Lisensi
 
-- Copyright © 2020 Hafid Ardiansyah.
+- Copyright © 2021 Hafid Ardiansyah.
 - **portfolio CC0-1.0 License.**
 
 ---

@@ -1,9 +1,4 @@
-@font-face {
-  font-family: "Poppins";
-  src: url("../../assets/font/Poppins-Regular.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
 * {
   margin: 0;
